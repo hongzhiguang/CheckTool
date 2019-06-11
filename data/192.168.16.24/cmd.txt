@@ -1,0 +1,6 @@
+telnet||show switchover
+telnet||show alarm all
+ssh||cresub n:0799010023 anw:1234567 l3addr:23 analog
+ssh||cresub n:0799010024 anw:1234567 l3addr:24 analog
+ssh||delsub n:0799010023
+ssh||delsub n:0799010024
